@@ -1,0 +1,54 @@
+[
+  {
+	"fr": {
+	  "/about": "/a-propos-de-nous",
+	  "/roadmap": "/feuille-de-route",
+	  "/our-team": "/notre-equipe",
+	  "/support-us": "/soutenez-nous",
+	  "/login": "/connexion",
+	  "/signup": "/sinscrire",
+	  "/games": "/jeux",
+	  "/news": "/des-nouvelles"
+	},
+	"es": {
+	  "/about": "/sobre-nosotros",
+	  "/roadmap": "/mapa-vial",
+	  "/our-team": "/nuestro-equipo",
+	  "/support-us": "/apoyanos",
+	  "/login": "/acceso",
+	  "/signup": "/inscribirse",
+	  "/games": "/juegos",
+	  "/news": "/noticias"
+	},
+	"ru": {
+	  "/about": "/o-nas",
+	  "/roadmap": "/dorozhnaya-karta",
+	  "/our-team": "/nasha-komanda",
+	  "/support-us": "/podderzhite-nas",
+	  "/login": "/vhod",
+	  "/signup": "/registraciya",
+	  "/games": "/igry",
+	  "/news": "/novosti"
+	},
+	"de": {
+	  "/about": "/uber-uns",
+	  "/roadmap": "/fahrplan",
+	  "/our-team": "/unser-team",
+	  "/support-us": "/unterstutze-uns",
+	  "/login": "/einloggen",
+	  "/signup": "/anmeldung",
+	  "/games": "/spiele",
+	  "/news": "/nachrichten"
+	},
+	"it": {
+	  "/about": "/chi-siamo",
+	  "/roadmap": "/tabella-di-marcia",
+	  "/our-team": "/la-nostra-squadra",
+	  "/support-us": "/supportaci",
+	  "/login": "/accedere",
+	  "/signup": "/iscrizione",
+	  "/games": "/giochi",
+	  "/news": "/notizia"
+	}
+  }
+]

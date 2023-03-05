@@ -1,0 +1,14 @@
+@import "components/auth/registration/registration.module";
+@import "components/auth/login/login.module";
+@import "components/header/header.module";
+@import "components/footer/footer.module";
+@import "components/button/button.module";
+@import "auth/form/form-wrapper.module";
+@import "auth/form/inputComponent/inputComponent.module";
+@import "auth/form/PasswordComponent/passwordComponent.module";
+@import "auth/form/recaptcha/recaptcha.module";
+@import "error/errorMessage.module";
+@import "auth/forgotPassword/forgotPasswrod.module";
+@import "components/dropdownComponent/DropdowWrapper.module";
+@import "components/languageSwither/Language.switcher";
+@import "components/account/userInfoSection.module";

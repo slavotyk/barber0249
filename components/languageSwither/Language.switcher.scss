@@ -1,0 +1,41 @@
+.language-switcher {
+  display: flex;
+  align-items: center;
+  background: #1D1D1D;
+  border-radius: 4px;
+
+  .language-switcher-dropdown-content {
+    width: auto;
+    background: #1D1D1D;
+    border-radius: 8px;
+  }
+
+  .language-select {
+    display: flex;
+    flex-direction: column;
+
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+
+    &:first-child {
+      //padding-top: 10px;
+    }
+
+    .language-select-item {
+      display: flex;
+      cursor: pointer;
+      padding: 5px 15px;
+      font-size: 1.6rem;
+      text-align: center;
+      width: 100%;
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+  }
+}
