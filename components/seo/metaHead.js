@@ -16,7 +16,6 @@ const MetaHead = ({pageSeoData}) => {
     }
 
     const siteUrl = process.env.SITE_URL ? process.env.SITE_URL : 'https://barbershop0249.ru'
-    console.log(siteUrl)
 
     const seoData = {
         title: pageSeoData.title ? pageSeoData.title : ( 'AiDude'),
