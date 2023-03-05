@@ -68,8 +68,9 @@ const ServicesList = ({rulesDown}) => {
     const categoriesMain = [
         "Стрижки",
         "Уход за бородой",
-        "Productivity",
-        "Images"
+        "Камуфляж",
+        "Дополнительный уход",
+        "Бритьё"
     ]
 
     return (
@@ -86,13 +87,17 @@ const ServicesList = ({rulesDown}) => {
                    onClick={() => setRules({...rules, noRules: false, category: 'Уход за бородой'})}>
                    Уход за бородой
                </li>
-               <li className={'filterItem filterItem_' + (rules.category === 'Productivity' && 'active')}
-                   onClick={() => setRules({...rules, noRules: false, category: 'Productivity'})}>
-                   Productivity
+               <li className={'filterItem filterItem_' + (rules.category === 'Камуфляж' && 'active')}
+                   onClick={() => setRules({...rules, noRules: false, category: 'Камуфляж'})}>
+                   Камуфляж
                </li>
-               <li className={'filterItem filterItem_' + (rules.category === 'Images' && 'active')}
-                   onClick={() => setRules({...rules, noRules: false, category: 'Images'})}>
-                   Images
+               <li className={'filterItem filterItem_' + (rules.category === 'Дополнительный уход' && 'active')}
+                   onClick={() => setRules({...rules, noRules: false, category: 'Дополнительный уход'})}>
+                   Дополнительный уход
+               </li>
+               <li className={'filterItem filterItem_' + (rules.category === 'Бритьё' && 'active')}
+                   onClick={() => setRules({...rules, noRules: false, category: 'Бритьё'})}>
+                   Бритьё
                </li>
                {/*<li className={'filterItem filterItem_' + (rules.isFree && 'active')}*/}
                {/*    onClick={() => setRules({...rules, isFree: !rules.isFree})}>*/}
