@@ -17,10 +17,10 @@ const ServicePage = () => {
         ogImageText: element.name + '&bg=' + element.imageUrl,
         slug: '/uslugi/' + element.slug,
         jsonLd: {
-            contents: ['WebApplication'],
+            contents: ['usluga'],
             name: element.name,
             description: element.description,
-            url: element.url,
+            url: 'https://barbershop0249.ru/uslugi/' + element.slug,
             category: element.category,
             prices: element.price,
             image: 'https://aidude.info/img/ai/' + element.imageUrl
