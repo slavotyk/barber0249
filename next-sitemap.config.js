@@ -28,59 +28,28 @@ module.exports = {
     //         alternateRefs: config.alternateRefs ?? [],
     //     }
     // },
-    // additionalPaths: async (config) => {
-    //     const result = []
-    //
-    //
-    //
-    //     result.push({loc: "/services/Business-Idea-Generator"})
-    //     result.push({loc: "/services/ChatBotKit"})
-    //     result.push({loc: "/services/Writesonic"})
-    //     result.push({loc: "/services/Bookmark"})
-    //     result.push({loc: "/services/Sitekick"})
-    //     result.push({loc: "/services/Durable"})
-    //     result.push({loc: "/services/Tome"})
-    //     result.push({loc: "/services/Slidesai"})
-    //     result.push({loc: "/services/Presentations-ai"})
-    //     result.push({loc: "/services/Jasper"})
-    //     result.push({loc: "/services/Aivo"})
-    //     result.push({loc: "/services/Rocketium"})
-    //     result.push({loc: "/services/Seventh-Sense"})
-    //     result.push({loc: "/services/Phrasee"})
-    //     result.push({loc: "/services/Human"})
-    //     result.push({loc: "/services/Acrolinx"})
-    //     result.push({loc: "/services/MarketMuse"})
-    //     result.push({loc: "/services/LivePerson"})
-    //     result.push({loc: "/services/Crayon"})
-    //     result.push({loc: "/services/FeedHive"})
-    //     result.push({loc: "/services/Copy-ai"})
-    //     result.push({loc: "/services/Peppertype-ai"})
-    //     result.push({loc: "/services/Markcopy"})
-    //     result.push({loc: "/services/SciSpace"})
-    //     result.push({loc: "/services/Semantic-Scholar"})
-    //     result.push({loc: "/services/Scite"})
-    //     result.push({loc: "/services/Perplexity"})
-    //     result.push({loc: "/services/Gradescope"})
-    //     result.push({loc: "/services/Ivy"})
-    //     result.push({loc: "/services/Century"})
-    //     result.push({loc: "/services/Fermat"})
-    //     result.push({loc: "/services/Personal-ai"})
-    //     result.push({loc: "/services/Resume-io"})
-    //     result.push({loc: "/services/Artbreeder"})
-    //     result.push({loc: "/services/Deep-Dream-Generator"})
-    //     result.push({loc: "/services/Fotor"})
-    //     result.push({loc: "/services/Artssy"})
-    //     result.push({loc: "/services/Cre8tiveAI"})
-    //     result.push({loc: "/services/DeepImage"})
-    //     result.push({loc: "/services/Vance-AI"})
-    //     result.push({loc: "/services/Let’s-Enhance"})
-    //     result.push({loc: "/services/waifu2x"})
-    //     result.push({loc: "/services/Upscale-media"})
-    //     result.push({loc: "/services/Erase-bg"})
-    //     result.push({loc: "/services/WatermarkRemover-io"})
-    //
-    //     return result
-    // },
+    additionalPaths: async (config) => {
+        const result = []
+
+            result.push({loc: "/uslugi/papa+sin"})
+            result.push({loc: "/uslugi/muzhskaya-strizhka"})
+            result.push({loc: "/uslugi/strizhka-mashinkoy"})
+            result.push({loc: "/uslugi/detskaya-strizhka"})
+            result.push({loc: "/uslugi/strizhka-nozhnicami"})
+            result.push({loc: "/uslugi/usluga-kompleks"})
+            result.push({loc: "/uslugi/strizhka-borody"})
+            result.push({loc: "/uslugi/modelirovaniya-borody"})
+            result.push({loc: "/uslugi/kamuflazh-borody"})
+            result.push({loc: "/uslugi/kamuflazh-volos"})
+            result.push({loc: "/uslugi/vosk"})
+            result.push({loc: "/uslugi/chernaya-maska"})
+            result.push({loc: "/uslugi/patchi"})
+            result.push({loc: "/uslugi/brite-golovy"})
+            result.push({loc: "/uslugi/brite-lica"})
+
+
+        return result
+    },
     // robotsTxtOptions: {
     //     policies: [
     //         {

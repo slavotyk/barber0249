@@ -28,8 +28,8 @@ const Index = () => {
 			<MetaHead pageSeoData={seoData}/>
 
 			<section className="section">
-				<h1 className='h1'>{!rulesDown.noRules ? rulesDown.category : ''}AI services available
-					<span> by AI dude</span></h1>
+				<h1 className='h1'>{!rulesDown.noRules ? rulesDown.category : ''}Перечень услуг
+					<span> Барбершоп 0249 в г. Обнинск</span></h1>
 			</section>
 
 			<section className='section'>
