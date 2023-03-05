@@ -8,9 +8,9 @@ const Index = () => {
 	const { t } = useTranslation();
 
 	const seoData = {
-		title: 'AI Services | AI Dude - Your One-Stop place for Artificial Intelligence Services',
-		description: 'Discover the power of AI with AI Dude. Our comprehensive range of artificial intelligence services includes machine learning, natural language processing, predictive analytics, robotic process automation, chatbots, and more. Contact us today to learn how we can help your business thrive.',
-		ogImageText: 'https://aidude.info' + '/api/og?title=' + 'AI Services | AI Dude'
+		title: 'Услуги барбершопа 0249 в Обнинске | Стрижки, бритье, уход за волосами и бородой',
+		description: 'Барбершоп 0249 в Обнинске предлагает профессиональные услуги для мужчин: стрижки, бритье головы и лица, уход за волосами и бородой. Опытные мастера и качественные средства для ухода гарантируют безупречный результат. Записывайтесь на услуги прямо сейчас!',
+		// ogImageText: 'https://aidude.info' + '/api/og?title=' + 'AI Services | AI Dude'
 	}
 
 	const rulesDown = {
