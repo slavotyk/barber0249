@@ -31,7 +31,7 @@ module.exports = {
     additionalPaths: async (config) => {
         const result = []
 
-            result.push({loc: "/uslugi/papa+sin"})
+            result.push({loc: "/uslugi/papa-sin"})
             result.push({loc: "/uslugi/muzhskaya-strizhka"})
             result.push({loc: "/uslugi/strizhka-mashinkoy"})
             result.push({loc: "/uslugi/detskaya-strizhka"})
